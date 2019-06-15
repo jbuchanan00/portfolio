@@ -1,0 +1,34 @@
+.experience-container{
+    height: 130vh;
+    background-color: white;
+    width: 100%;
+}
+
+.icon-container{
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    justify-content: space-between;
+    font-size: 2em;
+    font-weight: 700;
+}
+.total-icons-container{
+    position: relative;
+    display: flex;
+    border: 1px solid #000;
+    width: 90vw;
+    justify-content: space-around;
+}
+.total-icons-container-flex{
+    display: flex;
+    justify-content: center;
+}
+.icon-logo{
+    height: 100px;
+    width: auto;
+}
+.experience-title{
+    position: relative;
+}

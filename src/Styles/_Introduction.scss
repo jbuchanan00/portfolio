@@ -1,0 +1,48 @@
+@import "./Variables";
+
+.click-more-arrow{
+    font-size: 3em;
+}
+.splash-page-container{
+    height: 100vh;
+   color: #f8f5ec;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: $main-font
+}
+.title-text-container{
+    width: 500px;
+    // border: 1px solid #000;
+}
+header{
+    font-size: 2em;
+}
+.click-more-container{
+    // border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading-text{
+    border-bottom: 1px solid #000;
+}
+.splash-page-container-parallax{
+    background-image: linear-gradient(rgba(125, 125, 125, .5), rgba(200, 200, 200, .5)), url("https://www.elevationoutdoors.com/wp-content/uploads/2018/02/GettyImages-497231279-759x500.jpg");
+   background-size: cover;
+   height: 1500px;
+   min-width: 100vw;
+   max-width: 1000vw;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.pretend-box{
+    height: 100px;
+    color: white;
+    width: 100%;
+}
+.position{
+    font-size: 1.5em;
+}
