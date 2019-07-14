@@ -10,10 +10,12 @@ function App() {
   return (
     <ParallaxProvider>
       <div className="App">
+      <div className="app-body-nonav">
         <NavBar />
         <Introduction />
         <AboutMe />
         <Experience />
+        </div>
       </div>
     </ParallaxProvider>
   );

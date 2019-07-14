@@ -1,48 +1,32 @@
 @import "./Variables";
 
-.click-more-arrow{
-    font-size: 3em;
-}
 .splash-page-container{
-    height: 100vh;
-   color: #f8f5ec;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   font-family: $main-font
+    height: 105vh;
+    display: flex;
+    justify-content: flex-start;
+    background-image: url("https://images.unsplash.com/photo-1470955233021-2c79a52e5034?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    align-items: center;
+    flex-direction: column;
 }
 .title-text-container{
-    width: 500px;
-    // border: 1px solid #000;
-}
-header{
-    font-size: 2em;
-}
-.click-more-container{
-    // border: 1px solid #000;
+    color: white;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    font-size: 1.25em;
+}
+.click-more-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
-.heading-text{
-    border-bottom: 1px solid #000;
+.fa-arrow-alt-circle-down{
+    font-size: 2em;
 }
+
 .splash-page-container-parallax{
-    background-image: linear-gradient(rgba(125, 125, 125, .5), rgba(200, 200, 200, .5)), url("https://www.elevationoutdoors.com/wp-content/uploads/2018/02/GettyImages-497231279-759x500.jpg");
-   background-size: cover;
-   height: 1500px;
-   min-width: 100vw;
-   max-width: 1000vw;
-   width: 100%;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-.pretend-box{
-    height: 100px;
-    color: white;
-    width: 100%;
-}
-.position{
-    font-size: 1.5em;
+    width: 300px;
 }

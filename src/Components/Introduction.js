@@ -4,9 +4,8 @@ import * as Scroll from "react-scroll"
 
 export default function Introduction() {
     return (
-
         <div className="splash-page-container">
-            <Parallax className="splash-page-container-parallax" y={[-30, 50]}>
+            <Parallax className="splash-page-container-parallax" y={[-30, 70]}>
                 <div >
                     <div className="title-text-container">
                         <header>
@@ -14,7 +13,7 @@ export default function Introduction() {
                             <h1 className="heading-text position">Web Developer</h1>
                         </header>
                         <div className="click-more-container">
-                            <h3>Click for More!</h3>
+                            <h3>More About Me!</h3>
                             <div className="click-more-arrow" onClick={() => {
                                 Scroll.scroller.scrollTo("about_me", {
                                     smooth: true,
@@ -27,6 +26,7 @@ export default function Introduction() {
                     </div>
                 </div>
             </Parallax>
+             
         </div>
     );
 }

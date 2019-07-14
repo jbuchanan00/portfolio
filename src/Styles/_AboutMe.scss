@@ -1,19 +1,25 @@
+.about-me-container{
+    height: 100vh;
+    background: linear-gradient(rgba(100, 100, 100, .5), rgba(200, 200, 200, .5));
+    // color: white;
+}
 .about-me-header{
-    background-color: white;
-    position: relative;
     border-bottom: 1px solid #000;
     width: 150px;
-    margin: 5px;
+    font-size: 2em;
 }
-.about-me-container{
-    height: 110vh;
-    background: linear-gradient(to left, rgba(200, 200, 200, .5), rgba(00, 00, 00, .5), rgba(00, 00, 00, .5), rgba(200, 200, 200, .5))
+.about-me-text{
+    color: black;
 }
-.style-notflat{
-    background: linear-gradient(to left, rgba(200, 200, 200, .5), rgba(00, 00, 00, .5), rgba(00, 00, 00, .5), rgba(200, 200, 200, .5));
-    transform: rotate(355deg);
-    background-color: white;
-    height: 150px;
-    width: 110%;
-    margin: -70px 0px 0px -40px;
+.mini-nav{
+    transform: rotate(180deg);
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: black;
+    position: sticky;
+    height: 50px;
+    align-items: center;
+    width: 100%;
+    bottom: 0px;
 }

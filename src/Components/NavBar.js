@@ -1,5 +1,6 @@
 import React from 'react';
 import * as Scroll from "react-scroll"
+import Josh_logo from "../Josh_logo.jpg"
 
 function NavBar() {
     const clickedLink = (scrollTo) => {
@@ -10,6 +11,9 @@ function NavBar() {
     }
     return (
         <nav className="full-nav-bar">
+            <div className="pl-container">
+            <img className="personal-logo" src={Josh_logo} alt="personal-logo"/>
+            </div>
             <div className="link-container">
                 <div className="nav-links">
                     <div className="link-hover" onClick={() => {

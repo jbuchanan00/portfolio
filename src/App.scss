@@ -1,5 +1,15 @@
 @import "./Styles/Navbar";
 @import "./Styles//Introduction";
 @import "./Styles//Experience";
-@import "./Styles//AboutMe"
+@import "./Styles//AboutMe";
+
+body{ 
+    min-width: 320px;
+    width: 110vw;
+    max-width: 450px;
+}
+
+.app-body-nonav{
+    width: 101%;
+}
 
